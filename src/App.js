@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './scss/app.scss'
+import ItemCount from './components/ItemCount'
+import ItemListContainer from "./components/ItemListContainer";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ItemListContainer titulo ='100% Productos' subtitulo = 'Naturales' />
+      <ItemCount initial = {1}stock = {30} onAdd = {() => console.log ('Se agrego al carrito') } />
+    </>
   );
 }
 
