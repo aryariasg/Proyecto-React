@@ -31,7 +31,7 @@ const ItemList = () => {
         <>
             {cargando ? <h2> Cargando..</h2> :
             productos.map((producto) =>
-                <Item key = {producto.id} nombre = {producto.nombre} desc = {producto.desc} precio = {producto.precio} stock = {producto.stock} />
+                <Item key = {producto.id} nombre = {producto.nombre} desc = {producto.desc} precio = {producto.precio} stock = {producto.stock} categoria = {producto.categoria} id = {producto.id} />
             )
             }
         </>

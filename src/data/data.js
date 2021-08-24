@@ -6,7 +6,7 @@ const data = [
         precio:'350',
         categoria: 'Helado',
         stock:'5',
-        imagen:'./images/family.jpg'
+        imagen:'./image/chocolate-belga.png'
     },
     {
         id:'2',
@@ -15,7 +15,7 @@ const data = [
         precio:'450',
         categoria: 'Helado',
         stock:'15',
-        image:'./images/level.jpg'
+        imagen:'./images/level.jpg'
     },
     {
         id:'3',
@@ -24,7 +24,7 @@ const data = [
         precio:'300',
         categoria: 'Helado',
         stock:'3',
-        image:'./images/alien.jpg'
+        imagen:'./images/alien.jpg'
     },
     {
         id:'4',
@@ -33,7 +33,7 @@ const data = [
         precio:'500',
         categoria: 'Helado',
         stock:'13',
-        image:'./images/cartucho.jpg'
+        imagen:'./images/cartucho.jpg'
     },
     {
         id:'5',
@@ -42,7 +42,7 @@ const data = [
         precio:'250',
         categoria: 'Helado',
         stock:'3',
-        image:'./images/ps4.jpg'
+        imagen:'./images/ps4.jpg'
     },
     
 ]

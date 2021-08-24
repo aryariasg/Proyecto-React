@@ -1,4 +1,4 @@
-import ItemCount from '../../itemCount/ItemCount.js'
+import ItemCount from '../../ItemCount';
 
 const ItemDetail = ({nombre, desc, precio, stock, imagen})  =>{
     return (
@@ -7,7 +7,7 @@ const ItemDetail = ({nombre, desc, precio, stock, imagen})  =>{
             <h2>{nombre}</h2>
             <h3>{desc}</h3>
             <h4>${precio}</h4>
-            <img style={{width:"60%"}} src={imagen} alt={nombre} />
+            <img style={{width:"15%"}} src={imagen} alt={nombre} />
             <ItemCount stock={stock} />
         </div>
 
