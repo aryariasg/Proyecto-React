@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
-export default function ItemCount ({ initial = 1, stock = 0, onAdd = () => {} }){
+export default function ItemCount ({ initial = 0, stock = 0, onAdd = () => {} }){
   const [ userSelected, setUserSelected] = useState (initial)
 
   const decrement = () => {

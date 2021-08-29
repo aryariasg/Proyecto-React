@@ -28,19 +28,19 @@ const data = [
     },
     {
         id:'4',
-        nombre:'Oreo',
+        nombre:'Paleta Oreo',
         desc:'Helado de oreo',
         precio:'500',
-        categoria: 'Helado',
+        categoria: 'Paleta',
         stock:'13',
         imagen:'./images/cartucho.jpg'
     },
     {
         id:'5',
-        nombre:'CHOCOTORTA',
+        nombre:'Paleta CHOCOTORTA',
         desc:'Helado de chocotorta',
         precio:'250',
-        categoria: 'Helado',
+        categoria: 'Paleta',
         stock:'3',
         imagen:'./images/ps4.jpg'
     },

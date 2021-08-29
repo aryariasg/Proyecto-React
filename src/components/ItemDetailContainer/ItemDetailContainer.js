@@ -9,14 +9,14 @@ const ItemDetailContainer = () => {
     const [producto, setProducto] = useState([])
     const [cargando, setCargando] = useState(true)
 
-    const {id} = useParams ()
+    const { categoria, id} = useParams ()
 
     useEffect (() => {
         const productos = () => {
             return new Promise((resolve, reject)=>{
                 setTimeout(() => {
                     resolve(data)
-                },2000)
+                },8000)
             })
         }
         productos().then((items) => {
@@ -24,12 +24,12 @@ const ItemDetailContainer = () => {
             setProducto(producto)
             setCargando(false)
         })
-    },[])
+    },[categoria])
 
 
     return(
         <>
-        {cargando ? <h2>CARGANDO PRODUCTO...</h2> : 
+        {cargando ? <h2>CARGAN...</h2> : 
             <ItemDetail nombre = {producto.nombre} desc={producto.desc} precio={producto.precio} stock={producto.stock} imagen={producto.imagen} />
         }
         </>
